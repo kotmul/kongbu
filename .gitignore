@@ -1,0 +1,8 @@
+_backup/
+.kongbu/
+notebooks/
+outputs/
+*.egg-info*
+wandb/
+*.ipynb*
+*/__pycache__/*
