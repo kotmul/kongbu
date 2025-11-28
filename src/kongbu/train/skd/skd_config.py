@@ -21,7 +21,7 @@ from transformers import TrainingArguments
 
 @dataclass
 class SKDConfig(TrainingArguments):
-    r"""Configuration class for On-Policy Knowledge Distillation training.
+    r"""Configuration class for Speculative Knowledge Distillation training.
     
     This configuration extends TrainingArguments with additional parameters
     for generation, vLLM integration, and knowledge distillation specific settings.

@@ -1,5 +1,5 @@
 #!/bin/bash
-CUDA_VISIBLE_DEVICES=0 python3 -m kongbu.spec_vllm_seerve \
+CUDA_VISIBLE_DEVICES=0 python3 -m kongbu.spec_vllm_serve \
     --model zjotero/Qwen3-8B \
     --tensor_parallel_size 1 \
     --gpu_memory_utilization 0.95 \
